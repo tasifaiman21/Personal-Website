@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+   
+}
+
+h1{
+    font-size: 50px;
+    
+}
+
+.color{
+    color: rgb(223, 82, 57);
+}
+.half-width{
+    display: flex;
+    padding: 10px 80px;
+}
+
+.welcome{
+ width: 50%;
+ 
+}
+
+.para-design{
+    margin-bottom: 68px;
+    margin-right: 20px;
+}
+.second-para{
+    margin-top: 30px;
+}
+
+.button{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding:10px 20px; 
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(206, 39, 9), rgb(228, 152, 10));
+}
+
+.welcome img{
+    width: 70%;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+
+.second-section{
+    padding: 20px 40px;
+}
+
+.header{
+    text-align: center;
+}
+
+.three-mission{
+    display: flex;
+    margin: 0 30px;
+    
+}
+.mission-item{
+    margin: 40px;
+    border-radius: 20px;
+    padding: 30px;
+}
+.mission-img{
+    width: 50%;
+}
+
+#first-mission{
+    background-color: rgb(226, 247, 240);
+
+}
+#second-mission{
+    background-color: rgb(250, 236, 246);
+
+}
+#third-mission{
+    background-color: rgb(255, 242, 206);
+
+}
+#develop{
+    background-image: url(images/shape-1.png);
+    background-size: 190px;
+    height: 50%;
+    background-position:left;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+}
+h2{
+    font-size: 40px;
+}
+
+#community{
+    background-image: url(images/shape-1.png);
+    background-size: 150px;
+    height: 50%;
+    background-position:bottom;
+    background-repeat: no-repeat;
+   margin-top: 50px;
+   padding-right: 80px;
+}
+
+.expectation{
+    padding: 40px;
+}
+.expectation-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: justify;
+    
+    }
+
+footer{
+    background-color: #050518;
+    text-align: center;
+    padding:20px 20px ;
+    color: white;
+}
+
+.side-line{
+    border-left: 7px solid;
+        border-image: linear-gradient(rgb(202, 160, 181), cyan);
+        border-image-slice: 1;
+}
